@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    class Employee
+    public abstract class Employee
     {
+        public string EmpID { get; set; }
+
+        public abstract string CheckIn();
+
+        public abstract string Duties();
+
+        
     }
 }
